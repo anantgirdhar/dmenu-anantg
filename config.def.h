@@ -8,7 +8,11 @@ static int min_width = 500;                 /* minimum width when centered */
 static int fuzzy = 1;                       /* -F  option; if 0, dmenu doesn't use fuzzy matching */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	"monospace:size=14",
+  "Inconsolata:pixelsize=14:antialias=true:autohint=true",
+  "Symbola:pixelsize=18:antialias=true:autohint=true",
+  "Noto Serif CJK TC:pixelsize=18:antialias=true:autohint=true",
+  //"Noto Color Emoji:pixelsize=16:antialias=true:autohint=true",
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
